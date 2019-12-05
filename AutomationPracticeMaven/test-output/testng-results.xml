@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="13351" started-at="2019-10-22T22:17:23Z" finished-at="2019-10-22T22:17:36Z">
+    <groups>
+    </groups>
+    <test name="MvnAutomationPractice" duration-ms="13351" started-at="2019-10-22T22:17:23Z" finished-at="2019-10-22T22:17:36Z">
+      <class name="tsd.TSD_SetupFrameworkVerify">
+        <test-method status="PASS" signature="SetupEnv(org.testng.ITestContext)[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="SetupEnv" is-config="true" duration-ms="32" started-at="2019-10-22T17:17:23Z" finished-at="2019-10-22T17:17:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e5d9a50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupEnv -->
+        <test-method status="PASS" signature="SetupEngine(java.lang.String)[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="SetupEngine" is-config="true" duration-ms="12781" started-at="2019-10-22T17:17:23Z" finished-at="2019-10-22T17:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupEngine -->
+        <test-method status="PASS" signature="SetupTestCase(java.lang.reflect.Method)[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="SetupTestCase" is-config="true" duration-ms="11" started-at="2019-10-22T17:17:36Z" finished-at="2019-10-22T17:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tsd.TSD_SetupFrameworkVerify.prueba_farmework()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupTestCase -->
+        <test-method status="PASS" signature="prueba_farmework()[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="prueba_farmework" duration-ms="1" started-at="2019-10-22T17:17:36Z" finished-at="2019-10-22T17:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prueba_farmework -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="afterMethod" is-config="true" duration-ms="424" started-at="2019-10-22T17:17:36Z" finished-at="2019-10-22T17:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=prueba_farmework status=SUCCESS method=TSD_SetupFrameworkVerify.prueba_farmework()[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="CloseBrowser" is-config="true" duration-ms="114" started-at="2019-10-22T17:17:36Z" finished-at="2019-10-22T17:17:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="CloseAllDriver()[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="CloseAllDriver" is-config="true" duration-ms="536" started-at="2019-10-22T17:17:36Z" finished-at="2019-10-22T17:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAllDriver -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tsd.TSD_SetupFrameworkVerify@79698539]" name="afterSuite" is-config="true" duration-ms="56" started-at="2019-10-22T17:17:37Z" finished-at="2019-10-22T17:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tsd.TSD_SetupFrameworkVerify -->
+    </test> <!-- MvnAutomationPractice -->
+  </suite> <!-- Default Suite -->
+</testng-results>

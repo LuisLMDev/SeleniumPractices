@@ -1,0 +1,45 @@
+{
+	"Environment": {
+			"Name":"QA",
+			"baseUrl":"http://automationpractice.com",
+			"user":"jose.tester",
+			"password":"******",
+			"Help" :"options: chrome,ie,firefox",
+			"defaultBrowser" :"chrome"},
+	"Folders":{
+		"Help":"Set c: = Abosulte path , without c: = relative path, you must include last slash",
+		"WorkSpace":"automationpractice",
+		"AppName":"automationpractice",
+		"ExcelWorkbook":"/src/test/resources/data/",
+		"pathResults":  "/src/test/resources/results/",
+		"IEPath":       "/src/test/resources/libs/",
+		"pathDrivers":  "/src/test/resources/libs/"
+	},
+	"DefaultWaits":{
+		"Help":"Default time out for implicit waits",
+		"lowTimeOut":15,
+		"MidTimeOut":30,
+		"HighTimeOut":60
+	},
+	"ChromeParameters":{
+		"pathExe":"C:\\Programs Files\\Chrome\\chrome.exe"
+	},
+	"Emulators":{
+		"Help":"Parameters for userAgent emulators, default = takes the current configuration",
+		"userAgent":"default",
+		"agentProfile":"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36"
+	},
+	"SeleniumGrid":{
+		"Help":"Parameters for Selenium Grid, set runRemote = true when use Selenium Grid Server",
+		"runRemote":false,
+		"proxy":false,
+		"urlProxy":"172.16.200.1",
+		"portProxy":3128,
+		"hostRemote ":"dev.jenkinsmaster.stback.com",
+		"portRemote":4444,
+		"nodeUrl":"VALHOST001",
+		"browserName":"firefox", 
+		"plataform":"WINDOWS",
+		"versionBrowser":"42.0"	
+	}
+}
